@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, MainActivity2.class); //intent, niatan untuk pindah activity/halaman ke activity lain
+                startActivity(intent); //function untuk ngejalanin activty berdasrkan pengaturan intent 
 
 
 
