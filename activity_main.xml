@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" <!--RelativeLayout adalah grup tampilan yang menampilkan tampilan turunan di posisi relatif.--> 
-    xmlns:app="http://schemas.android.com/apk/res-auto" // info lebih lanjut soal RelativeLayout bisa diakses di https://developer.android.com/guide/topics/ui/layout/relative?hl=id
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <!--info lebih lanjut soal RelativeLayout bisa diakses di https://developer.android.com/guide/topics/ui/layout/relative?hl=id.--> 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/etName" //menetukan id sebagai identifikasi supaya bisa di pangggil di elemen lain atau di java class
-        android:layout_width="wrap_content" //mau berapa ukuran lebar user interface element //wrap_content -> sesuai yang dibutuhkan element
-        android:layout_height="wrap_content" // mau berapa tinggi user interface element // match_parent -> luasnya satu layar baik itu tingginya atau lebarnya
-        android:layout_centerHorizontal="true" // membuat element ditengah untuk bagian horizontalnya untuk mentetuin jadi ditengah di antara " " masukan true
-        android:layout_marginTop="200dp" // ukuran jarak elemen dari sisi atas
-        android:minWidth="200dp" // menetutkan ukuran lebar suatu elemen
-        android:hint="Nama" /> memberikan petunjuk kepada user inputan apa yang akan dimasukan
+        android:id="@+id/etName" <!--menetukan id sebagai identifikasi supaya bisa di pangggil di elemen lain atau di java class.--> 
+        android:layout_width="wrap_content" <!--mau berapa ukuran lebar user interface element //wrap_content -> sesuai yang dibutuhkan element-->
+        android:layout_height="wrap_content" <!-- mau berapa tinggi user interface element // match_parent -> luasnya satu layar baik itu tingginya atau lebarnya-->
+        android:layout_centerHorizontal="true" <!--membuat element ditengah untuk bagian horizontalnya untuk mentetuin jadi ditengah di antara " " masukan true-->
+        android:layout_marginTop="200dp" <!-- ukuran jarak elemen dari sisi atas-->
+        android:minWidth="200dp" <!--menetutkan ukuran lebar suatu elemen-->
+        android:hint="Nama" />  <!--memberikan petunjuk kepada user inputan apa yang akan dimasukan-->
 
     <EditText
         android:id="@+id/etPassword"
